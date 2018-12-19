@@ -10,6 +10,9 @@ body {
   padding: 20px;
   animation: change-background 4s ease infinite;
 }
+h1 {
+  animation: change-text 4s ease infinite;
+}
 /* Keyframes */
 @keyframes change-background {
   0% {
@@ -20,6 +23,17 @@ body {
   }
   100% {
     background: #f4d6db;
+  }
+}
+@keyframes change-text {
+  0% {
+    color: #69b7eb;
+  }
+  50% {
+    color: #b3dbd3;
+  }
+  100% {
+    color: #f4d6db;
   }
 }
 

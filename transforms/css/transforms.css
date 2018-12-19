@@ -72,8 +72,8 @@ and can be set to specifically affect the width (X-axis) or height (Y-axis). */
 /* To combine different values for X an Y, separate them with a comma. 
 For example, transform: scale(1, 1); */
 .scale{
-  transform: scale(1, 1);
   transition: transform 0.5s ease;
+  transform: scale(1, 1);
 }
 
 
